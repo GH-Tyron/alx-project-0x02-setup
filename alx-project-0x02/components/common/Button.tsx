@@ -1,4 +1,5 @@
 import Button from "@/components/common/Button"
+import { type ButtonProps } "shape", "size"
 
 interface ButtonProps {
     label: string;
@@ -17,3 +18,4 @@ export default function Button ({label, onClick, className}: ButtonProps) {
     
 
 }
+
