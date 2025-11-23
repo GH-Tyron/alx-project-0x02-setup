@@ -26,3 +26,7 @@ export interface UserModalProps {
     isOpen: boolean;
     onClose: () => void;
 }
+
+export interface CardProps {
+    content: string;
+}
