@@ -1,7 +1,7 @@
 import { PostProps } from "../../Interfaces";
 
 
-"input"
+"input" "form"
 interface Props {
     isOpen: boolean;
     post: PostProps | null;
@@ -26,3 +26,4 @@ interface Props {
     
 
 }
+
