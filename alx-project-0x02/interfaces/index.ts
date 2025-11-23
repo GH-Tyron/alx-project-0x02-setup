@@ -30,3 +30,5 @@ export interface UserModalProps {
 export interface CardProps {
     content: string;
 }
+
+export interface ButtonProps "size", "shape", "small", "rounded-sm", "rounded-md", "medium", "large"
