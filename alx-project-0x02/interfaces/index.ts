@@ -16,7 +16,7 @@ export interface UserData {
 }
 
 export interface PostProps {
-    "UserId": number;
+    UserId: number;
     id: number;
     title: string;
     body: string;
@@ -33,3 +33,4 @@ export interface CardProps {
 
 export interface ButtonProps "size", "shape", "small", "rounded-sm", "rounded-md", "medium", "large"
 
+"userId"
