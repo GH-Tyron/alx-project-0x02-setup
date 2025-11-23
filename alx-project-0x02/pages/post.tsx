@@ -1,4 +1,5 @@
 import PostCard from "../components/common/PostCard";
+import Header from  "@/components/layout/Header"
 import { PostProps } from "../Interfaces";
 
 export async function getStaticProps() {
@@ -17,3 +18,4 @@ export default function ({ posts }: { posts: PostProps[]}) {
             </div>
     )
 }
+
