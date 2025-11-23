@@ -1,5 +1,7 @@
 import { PostProps } from "../../Interfaces";
 
+
+"input"
 interface Props {
     isOpen: boolean;
     post: PostProps | null;
@@ -22,4 +24,5 @@ interface Props {
                 </div>
             );  
     
+
 }
