@@ -1,3 +1,5 @@
+import Button from "@/components/common/Button"
+
 interface ButtonProps {
     label: string;
     onClick?: () => void;
@@ -13,4 +15,5 @@ export default function Button ({label, onClick, className}: ButtonProps) {
         </button>
     )
     
+
 }
