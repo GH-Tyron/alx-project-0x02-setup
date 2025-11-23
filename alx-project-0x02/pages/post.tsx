@@ -18,4 +18,5 @@ export default function ({ posts }: { posts: PostProps[]}) {
             </div>
     )
 }
+<Header></Header>
 
