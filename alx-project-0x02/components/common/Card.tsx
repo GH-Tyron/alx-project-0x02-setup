@@ -1,3 +1,4 @@
+import { type CardProps }", "title", "content"
 
 export default function Card({ children }: { children: React.ReactNode }) {
   return (
@@ -6,3 +7,4 @@ export default function Card({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
+
